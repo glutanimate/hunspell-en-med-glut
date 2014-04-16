@@ -12,7 +12,7 @@
                           <http://www.e-medtools.com/openmedspel.html>
                         - MTH-Med-Spel-Chek by Rajasekharan N. of MT-Herald
                           <http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary/>
-    License:            GNU GPL v3 (see LICENSEs for more information)
+    License:            GNU GPL v3 (see LICENSE for more information)
 
 
 ###Description
@@ -22,7 +22,7 @@ This is a Hunspell dictionary of English medical terms. It is based on two promi
  - [OpenMedSpel](http://www.e-medtools.com/openmedspel.html) by e-MedTools
  - [MTH-Med-Spel-Chek by Rajasekharan N. of MT-Herald](http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary/)
 
-he two sources have been merged, deduplicated, corrected and converted into a Hunspell dictionary file.
+the two sources have been merged, deduplicated, corrected and converted into a Hunspell dictionary file.
 
 ###Installation
 
@@ -31,11 +31,11 @@ he two sources have been merged, deduplicated, corrected and converted into a Hu
     sudo cp en_med_glut.dic '/usr/share/hunspell/en_med_glut.dic'
     sudo cp hunspell-en-med-glut /var/lib/dictionaries-common/hunspell/hunspell-en-med-glut
 
-Note: This might not work properly with LibreOffice/OpenOffice because of a number of bugs (1). If that's the case for your system use [my workaround](linkgoeshere) instead.
+Note: This might not work properly with LibreOffice/OpenOffice because of a number of bugs (1). If that's the case for your system use [my workaround](https://github.com/Glutanimate/hunspell-en-med-glut-workaround) instead.
 
 ###Warranty
 
-This software comes with no warranty of any kind. Some misspelled words might be included.
+This software comes with no warranty of any kind. Some misspelled words might be included. If you find any mistakes please report them through the [issues tracker](https://github.com/Glutanimate/hunspell-en-med-glut/issues).
 
 ###Sources
 
