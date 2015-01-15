@@ -10,8 +10,8 @@
                         Rajasekharan N. <https://plus.google.com/u/0/+Rajasekharan-N/>
     Sources:            - OpenMedSpel by R. Robinson of e-MedTools 
                           <http://www.e-medtools.com/openmedspel.html>
-                        - MTH-Med-Spel-Chek by Rajasekharan N. of MT-Herald
-                          <http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary/>
+                        - Raj&Co-Med-Spel-Chek by Rajasekharan N. of Raj&Co
+                          <http://rajn.co/free-medical-spell-checker-for-microsoft-word-custom-dictionary/>
     License:            GNU GPL v3 (see LICENSE for more information)
 
 
@@ -20,7 +20,7 @@
 This is a Hunspell dictionary of English medical terms. It is based on two prominent medical dictionary projects:
 
  - [OpenMedSpel](http://www.e-medtools.com/openmedspel.html) by e-MedTools
- - [MTH-Med-Spel-Chek by Rajasekharan N. of MT-Herald](http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary/)
+ - [Raj&Co-Med-Spel-Chek by Rajasekharan N. of Raj&Co](http://rajn.co/free-medical-spell-checker-for-microsoft-word-custom-dictionary/)
 
 the two sources have been merged, deduplicated, corrected and converted into a Hunspell dictionary file.
 
