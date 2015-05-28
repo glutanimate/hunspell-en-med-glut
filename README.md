@@ -29,7 +29,13 @@ the two sources have been merged, deduplicated, corrected and converted into a H
     git clone https://github.com/Glutanimate/hunspell-en-med-glut.git
     cd hunspell-en-med-glut
     sudo cp en_med_glut.dic '/usr/share/hunspell/en_med_glut.dic'
+    sudo mkdir /var/lib/dictionaries-common/hunspell
     sudo cp hunspell-en-med-glut /var/lib/dictionaries-common/hunspell/hunspell-en-med-glut
+    
+###Usage
+
+    # hunspell -d en_US,en_med_glut -a < input_file.txt
+    
 
 Note: This might not work properly with LibreOffice/OpenOffice because of a number of bugs (1). If that's the case for your system use [my workaround](https://github.com/Glutanimate/hunspell-en-med-glut-workaround) instead.
 
