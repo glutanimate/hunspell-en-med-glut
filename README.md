@@ -29,7 +29,14 @@ The two sources have been merged, deduplicated, corrected, and converted into a 
     git clone https://github.com/Glutanimate/hunspell-en-med-glut.git
     cd hunspell-en-med-glut
     sudo cp en_med_glut.dic '/usr/share/hunspell/en_med_glut.dic'
+    sudo mkdir -p /var/lib/dictionaries-common/hunspell
     sudo cp hunspell-en-med-glut /var/lib/dictionaries-common/hunspell/hunspell-en-med-glut
+
+###Usage
+ 
+From the command-line:
+
+    hunspell -d en_US,en_med_glut -a < input_file.txt
 
 ### Warranty
 
